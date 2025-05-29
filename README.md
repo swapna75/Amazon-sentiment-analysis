@@ -1,12 +1,12 @@
-# 📊 Amazon Sentiment Analysis
+# Amazon Sentiment Analysis
 
-## 🔍 Introduction
+## Introduction
 
 Customer reviews significantly influence purchasing behavior in e-commerce. Analyzing the sentiment behind these reviews helps businesses gain valuable insights into customer satisfaction. This project leverages **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques to automate sentiment analysis of Amazon product reviews.
 
 ---
 
-## 🧠 Key Concepts
+## Key Concepts
 
 - **Sentiment Analysis**: Determining whether a review expresses positive or negative sentiment.
 - **Text Classification**: Categorizing textual data into predefined classes.
@@ -14,13 +14,13 @@ Customer reviews significantly influence purchasing behavior in e-commerce. Anal
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Manual analysis of large volumes of product reviews is **inefficient and time-consuming**. Automating sentiment classification improves scalability and provides real-time insights. The goal is to build and compare ML models that can accurately classify reviews as **positive or negative**.
 
 ---
 
-## ✅ Project Objectives
+## Project Objectives
 
 1. Build sentiment classification models using machine learning.
 2. Preprocess and analyze Amazon review data.
@@ -35,7 +35,7 @@ Manual analysis of large volumes of product reviews is **inefficient and time-co
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 - **Source**: [Kaggle - Amazon Reviews Dataset](https://www.kaggle.com/datasets/thanmayemajeti/amazon-reviews)
 - **Key Features**:
@@ -47,7 +47,7 @@ Manual analysis of large volumes of product reviews is **inefficient and time-co
 
 ---
 
-## 🛠️ NLP Techniques Applied
+## NLP Techniques Applied
 
 | Technique            | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Manual analysis of large volumes of product reviews is **inefficient and time-co
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 - **StandardScaler** is applied to standardize features:
   - Mean = 0
@@ -70,7 +70,7 @@ Manual analysis of large volumes of product reviews is **inefficient and time-co
 
 ---
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 
 | Model                | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Manual analysis of large volumes of product reviews is **inefficient and time-co
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 - **True Positive (TP)**: Correctly predicted positive review.
 - **True Negative (TN)**: Correctly predicted negative review.
@@ -91,7 +91,7 @@ Manual analysis of large volumes of product reviews is **inefficient and time-co
 
 ---
 
-### 🧪 ROC Curve
+###  ROC Curve
 
 - **True Positive Rate (TPR)** vs. **False Positive Rate (FPR)**.
 - **AUC (Area Under Curve)**:
@@ -101,16 +101,16 @@ Manual analysis of large volumes of product reviews is **inefficient and time-co
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 - Word clouds highlight frequently used terms in positive/negative reviews.
 - Charts show sentiment distribution and model performance.
 
-> 📌 *Note: See `/visualizations/` folder for word clouds and model comparison plots.*
+>  *Note: See `/visualizations/` folder for word clouds and model comparison plots.*
 
 ---
 
-## 🌟 Impact
+##  Impact
 
 Automated sentiment analysis using NLP enables businesses to:
 
@@ -120,7 +120,7 @@ Automated sentiment analysis using NLP enables businesses to:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates how **NLP and machine learning** can be used to classify product reviews effectively. By comparing multiple models and leveraging proper preprocessing techniques, we achieve accurate and scalable sentiment analysis.
 
